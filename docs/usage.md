@@ -25,8 +25,8 @@ If you are running Slips either using [Docker](https://stratospherelinuxips.read
 ## Reading the input
 
 The table below shows the commands Slips uses for different inputs.
-The first part of the command **./slips.py -c config/slips.conf** remains the same, the second part changes depending on the input type.
-Users are encouraged to execute the **./slips.py --help** command to find the correct arguments to run Slips for each type of the file.
+The first part of the command ```./slips.py -c config/slips.conf``` remains the same, the second part changes depending on the input type.
+Users are encouraged to execute the ```./slips.py --help``` command to find the correct arguments to run Slips for each type of the file.
 
 
 <table>
