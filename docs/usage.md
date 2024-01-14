@@ -1,6 +1,6 @@
 # Usage
 
-Slips can read the packets directly from the **network interface** of the host machine, and packets and flows from different types of files, including
+Slips can either read the packets directly from a **network interface** of the host machine, or from different types of files, including:
 
 - Pcap files (internally using Zeek) 
 - Packets directly from an interface (internally using Zeek)
@@ -12,16 +12,21 @@ Slips can read the packets directly from the **network interface** of the host m
 
 It's recommended to use PCAPs.
 
-All the input flows are converted to an internal format. So once read, Slips works the same with all of them. 
+All the input flows are converted to an internal format.
+Once read, all file types are processed in the same way. 
 
-After Slips was run on the traffic, the Slips output can be analyzed with Kalipso GUI interface. In this section, we will explain how to execute each type of file in Slips, and the output can be analyzed with Kalipso.
+After running Slips, the output can be analyzed with the Kalipso GUI interface.
 
-Either you are [running Slips in docker](https://stratospherelinuxips.readthedocs.io/en/develop/installation.html#installing-and-running-slips-inside-a-docker) or [locally](https://stratospherelinuxips.readthedocs.io/en/develop/installation.html#installing-slips-in-your-own-computer), you can run Slips using the same below commands and configurations.
+In this section, we will explain how to execute each type of file in Slips.
+
+If you are running Slips either using [Docker](https://stratospherelinuxips.readthedocs.io/en/develop/installation.html#installing-and-running-slips-inside-a-docker) or [Locally](https://stratospherelinuxips.readthedocs.io/en/develop/installation.html#installing-slips-in-your-own-computer), the same below commands and configurations can be used.
 	
 
 ## Reading the input
 
-The table below shows the commands Slips uses for different inputs. The first part of the command **./slips.py -c config/slips.conf** is same, the second part changes depending on the input type. Also, the user can execute **./slips.py --help** to find correct argument to run Slips on each type of the file.
+The table below shows the commands Slips uses for different inputs.
+The first part of the command **./slips.py -c config/slips.conf** remains the same, the second part changes depending on the input type.
+Users are encouraged to execute the **./slips.py --help** command to find the correct arguments to run Slips for each type of the file.
 
 <style>
 table {
