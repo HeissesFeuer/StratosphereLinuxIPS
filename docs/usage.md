@@ -73,7 +73,7 @@ Users are encouraged to execute the **./slips.py --help** command to find the co
 
 </table>
 
-(*) To find the interface in Linux, you can use the command ```ifconfig```.
+(*) To find the interfaces in Linux, you can use the command ```ifconfig``` or ```ip a```.
 
 There is also a configuration file **config/slips.conf** where the user can set up parameters for Slips execution and models
 separately. Configuration of the **config/slips.conf** is described [here](#modifying-the-configuration-file).
