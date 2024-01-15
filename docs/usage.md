@@ -80,16 +80,14 @@ separately. Its usage is explained [here](#modifying-the-configuration-file).
 
 ## Daemonized vs interactive mode
 
-Slips has 2 modes, interactive and daemonized.
+Slips can be run in both interactive and daemonized modes.
 
-**Daemonized** : means , output, logs and alerts are written in files.
+In **daemonized mode**: Slips runs in the background, The output is written to the ```stdout```, ```stderr``` and
+```logsfile``` files that can be specified in ```config/slips.conf```
 
-In daemonized mode : Slips runs completely in the background, The output is written to``` stdout```, ```stderr``` and
-```logsfile``` files specified in ```config/slips.conf``` 
+The default file paths are as follows:
 
-by default, these are the paths used
-
-stdout = /var/log/slips/slips.log
+```stdout = /var/log/slips/slips.log```
 stderr = /var/log/slips/error.log
 logsfile = /var/log/slips/slips.log
 
