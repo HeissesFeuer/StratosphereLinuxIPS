@@ -88,8 +88,8 @@ In **daemonized mode**: Slips runs in the background, The output is written to t
 The default file paths are as follows:
 
 ```stdout = /var/log/slips/slips.log```
-stderr = /var/log/slips/error.log
-logsfile = /var/log/slips/slips.log
+```stderr = /var/log/slips/error.log```
+```logsfile = /var/log/slips/slips.log```
 
 NOTE: Since ```/val/log/``` is owned by root by default, If you want to store the logs in  ```/var/log/slips```, 
 creat /var/log/slips as root and slips will use it by default.
