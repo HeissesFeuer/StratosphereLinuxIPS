@@ -91,8 +91,8 @@ The default file paths are as follows:
 ```stderr = /var/log/slips/error.log```
 ```logsfile = /var/log/slips/slips.log```
 
-NOTE: Since ```/val/log/``` is owned by root by default, If you want to store the logs in  ```/var/log/slips```, 
-creat /var/log/slips as root and slips will use it by default.
+NOTE: Since ```/var/log/``` is owned by root by default, if you want to store the logs in  ```/var/log/slips```,
+create /var/log/slips as root and slips will use it by default.
 
 If slips can't write there, slips will store the logs in the ```Slips/output/``` dir by default.
 
