@@ -260,7 +260,7 @@ The traffic of IP is splitted into time windows. each time window is 1h long of 
 
 You can press Enter of any of them to view the list of flows in the timewindow.
 
-<img src="https://raw.githubusercontent.com/stratosphereips/StratosphereLinuxIPS/develop/docs/images/web_interface.png" width="850px"
+<img src="https://raw.githubusercontent.com/stratosphereips/StratosphereLinuxIPS/develop/docs/images/web_interface.png" width="850px">
 
 You can switch to the flows view in kalipso by pressing TAB, now you can scroll on flows using arrows
 
